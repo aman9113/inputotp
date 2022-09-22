@@ -1,2 +1,2 @@
 # inputotp
-creating a project for input OTP
+creating a project to input OTP
