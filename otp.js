@@ -19,6 +19,7 @@ function handle_next_input(event){
   for(let {value} of otp_inputs){
       _finalKey += value
   }
+  
   if(_finalKey.length == 6){
     document.querySelector("#_otp").classList.replace("_notok", "_ok")
     document.querySelector("#_otp").innerText = _finalKey
